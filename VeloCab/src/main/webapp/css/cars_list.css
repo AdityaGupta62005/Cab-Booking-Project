@@ -1,0 +1,134 @@
+
+        .cabDetailsBox {
+        border: 1px solid #e2e2e2;
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cabHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carDetails {
+        display: flex;
+        align-items: center;
+    }
+
+    .carImage {
+        width: 80px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .carInfo h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .rating {
+        background-color: #4CAF50;
+        color: white;
+        padding: 2px 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .ratings {
+        font-size: 12px;
+        color: #757575;
+    }
+
+    .carType {
+        font-size: 14px;
+        color: #757575;
+        margin-top: 5px;
+    }
+
+    .priceDetails {
+        text-align: right;
+    }
+
+    .discount {
+        font-size: 14px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .price {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .taxes {
+        font-size: 12px;
+        color: #757575;
+    }
+
+    .bookNowBtn {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .bookNowBtn:hover {
+        background-color: #0056b3;
+    }
+
+    .cabBody {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .infoRow {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        background: url('path_to_icon/icon.png') no-repeat center center;
+        background-size: contain;
+    }
+
+    .infoTitle {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .infoDetails {
+        color: #757575;
+    }
+    
+.filterSection {
+    width: 250px;
+    float: left;
+    padding: 15px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.filterSection h3, .filterSection h4 {
+    margin: 10px 0;
+}
+
+.cabContainer {
+    margin-left: 300px; /* Adjust based on the width of filterSection */
+}
